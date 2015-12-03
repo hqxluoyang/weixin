@@ -1,0 +1,99 @@
+@import "common.scss";
+
+$colorY: #fee646;
+$colorG: #2baf2b;
+
+body{
+	background: #f1f5f8;
+}
+.color-yellow{
+	color: $colorY;
+}
+.table-div{
+	display:table;
+	width: 100%;
+	height: 100%;
+	.cell-div{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.share-container{
+	font-weight: 400;
+	.color-green{
+		color: $colorG;
+	}
+	.user-info{
+		background: #d02927 url(../images/x_bg_share_coin.png) repeat-x;
+		background-size: cover;
+		text-align: center;
+		padding: 1.2em 0;
+		color: $colorW;
+		img{
+			width: 5em;
+			height: 5em;
+			border: 3px solid #fff;
+			border-radius: 50%;
+		}
+
+		.user-name{
+			font-size: 1.4em;
+			height: 3em;
+			line-height: 3em;
+			color: $colorW;
+		}
+
+		ul{
+			width: $p80;
+			margin: $marginCenter;
+			overflow: hidden;
+			li{
+				float: left;
+				width: 50%;
+				height: 1.8em;
+				line-height: 1.8em;
+				font-size: 1.4em;
+			}
+		}
+	}
+
+	.share-list{
+		ul.list-item{
+			overflow: hidden;
+			border-bottom: 1px solid #b6b6b6;
+			background: #fff;
+			li{
+				float: left;
+				font-size: 1.4em;
+				height: 4.6em;
+				line-height: 4.6em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			li.user-headimg{
+				width: 20%;
+				min-width: 4em;
+				text-align: center;
+				img{
+					border: 1px solid #b9b9b9;
+					border-radius: 50%;
+					width: 60%;
+				}
+			}
+			li.user-name{
+				width: 30%;
+			}
+			li.user-money{
+				width: 20%;
+				span{
+					
+				}
+			}
+			li.user-status{
+				width: 30%;
+				font-weight: 600;
+			}
+		}
+	}
+}

@@ -1,0 +1,121 @@
+@import "common.scss";
+
+.login-page{
+	position: relative;
+	width: $p100;
+	height: $p100;
+	.manager{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: $p100;
+		height: $p100;
+		overflow: hidden;
+		.manager-head{
+			height: 64px;
+			width: $p100;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.manager-body{
+			position: absolute;
+			top: 64px;
+			left: 0;
+			width: $p100;
+			overflow-y: auto;
+			.user-list{
+				.table{
+					thead{
+						
+					}
+					
+					.head-img{
+						width: 20%;
+						max-width: 100px;
+						img{
+							width: $p100;
+							max-width: 80px;
+						}
+					}
+				}
+			}	
+		}	
+	}
+	
+	.loginForm{
+		position:absolute;
+		left: 0;
+		top: 0;
+		width: $p100;
+		height: $p100;
+		background: $colorW;
+		z-index: 1000;
+		.login-head{
+			height: 250px;
+			background-color: rgb(251, 188, 5);
+		}
+		.login-table{
+			width: 400px;
+			height: 400px;
+			position: absolute;
+			left: 50%;
+			top: 370px;
+			margin-left: -200px;
+			margin-top: -100px;
+		}
+	}
+}
+
+.verifyUser{
+	width: 30em;
+	height: 46em;
+	border-radius: 5px;
+	background: #546e7a;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -23em;
+	margin-left: -15em;
+
+	dl.verify-item{
+		width: $p80;
+		margin: $marginCenter;
+		text-align: center;
+		overflow: hidden;
+		color: $colorW;
+		dt{
+			height: 5em;
+			line-height: 5em;
+			font-size: 2em;
+			img{
+				margin-top: 1em;
+				width: 4em;
+				height: 4em;
+				border-radius: 50%;
+			}
+		}
+		dd{
+			width: $p100;
+			line-height: 2.4em;
+			font-size: 1.4em;
+		}
+	}
+
+	.verify-btn{
+		width: $p80;
+		text-align: center;
+		font-size: 1.6em;
+		position: absolute;
+		left: 10%;
+		bottom: 0;
+		.btn-ct{
+			width: 50%;
+			height: 4em;
+			line-height: 4em;
+			display: inline-block;
+		}
+	}
+}
+

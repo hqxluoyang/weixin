@@ -1,0 +1,8 @@
+*{margin:0;padding:0;border:0;}
+html, body{font:12px/1.5 'robotos', 微软雅黑, Arial;}
+ul, ol, dl{list-style:none;}
+.main{
+	width: 80%;
+	height: 120px;
+	margin: 0 auto;
+}

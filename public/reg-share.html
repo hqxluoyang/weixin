@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="pragma" content="no-cache">
+	    <meta http-equiv="cache-control" content="no-cache">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0" />
+		<title>注册有红包</title>
+		<!--<link rel="stylesheet" type="text/css" href="./css/materialize.css"></link>-->
+		<link rel="stylesheet" type="text/css" href="./css/all.min.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+	</head>
+	<body>
+		<div id="register-page" class="register-page">
+			<div class="reg-form">
+				<div class="reg-row">
+					<label>姓名: </label>
+					<div class="reg-input inputShadow">
+						<input type="text" name="name" class="text-1" />
+					</div>
+				</div>
+				<div class="reg-row">
+					<label>电话: </label>
+					<div class="reg-input phone inputShadow">
+						<div class="area-code">+86</div>
+						<input type="text" name="phone" class="text-1" />
+					</div>
+				</div>
+				<div class="reg-row">
+					<label>营业厅地址: </label>
+					<div class="reg-input inputShadow">
+						<input type="text" name="address" class="text-1" />
+					</div>
+				</div>
+
+				<div id="reg-submit" class="reg-submit inputShadow">
+					注册
+				</div>
+			</div>
+		</div>
+		
+
+		<div id="share-page" class="share-page">
+			<div class="banner">
+				<img src="images/x_bg_invite.png" />
+			</div>
+			<div class="invite-friends">
+				<div id="invite-btn" class="invite-btn">抢10元红包</div>
+				<dl class="activity-detail">
+					<dt>
+						<div class="line">
+							<b class="circle-left"></b>
+							<b class="circle-right"></b>
+						</div>
+						<span>活动详情</span>
+					</dt>
+					<dd>
+						<b>1</b>
+						<span>注册成功并审核通过后, 立刻获得10元红包</span>
+					</dd>
+					<dd>
+						<b>2</b>
+						<span>邀请好友, 待好友成功注册并审核通过后, 还可获得理多红包</span>
+					</dd>
+					<dd>
+						<b>3</b>
+						<span>此活动仅针对营业厅及手机卖场或店面人员</span>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+		<div id="follow-page" class="follow-page">
+			<div class="qrcode">
+				<img src="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQFz8DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xLy1VTWlnOFBtQ0taeGlLZ3lSR19IAAIEtWPlVQMEAAAAAA==" />
+			</div>
+			<div class="qrcode-t">
+				<span>请长按识别二维码</span>
+				<span>关注一键换机</span>
+			</div>
+			
+			<div class="follow-des">
+				<p>
+					<span>关注成功后, 请点击"营业员区"按钮进行注册,</span>
+					<span>注册成功并审核通过后即可获得10红包.<span>
+				</p>
+			</div>
+		</div>
+	    
+	    <div id="guide-share" class="guide-share">
+	    	<div class="block"></div>
+	    	<img src="images/download_share.png" />
+	    </div>
+		<script data-main="/js/main-regShare.js" src="/js/require.js"></script>
+	</body>
+</html>

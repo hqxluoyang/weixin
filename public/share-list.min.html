@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0" />
+
+		<title>红包查看及分享</title>
+		<link rel="stylesheet" type="text/css" href="./css/common.css"></link>
+		<link rel="stylesheet" type="text/css" href="./css/materialize.css"></link>
+		<link rel="stylesheet" type="text/css" href="./css/share-list-cf0fb215db.min.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<div class="share-container">
+			<div class="user-info">
+				<img id="self-headimg" src="images/ch_xender@3x.png" />
+				<div class="user-name">
+					<span id="self-name"></span>
+				</div>
+
+				<ul class="color-yellow">
+					<li id="p-number"></li>
+					<li id='all-money'></li>
+				</ul>
+				<ul>
+					<li>收到的红包</li>
+					<li>收到的金额</li>
+				</ul>
+			</div>
+
+			<div id="share-list" class="share-list">
+				
+			</div>
+		</div>
+		<script data-main="/js/main-share-list.js" src="/js/require.js"></script>
+	</body>
+</html>

@@ -1,0 +1,276 @@
+@import "common.scss";
+
+.registerPage, .register-page, .share-page, .follow-page, .friend-list{
+	display: none;
+	@extend .mainDiv;
+	h2{
+		font-size: 2.4em;
+		width: $p100;
+		@extend .alingCenter;
+		height: 3em;
+		line-height: 3em;
+		font-weight: 400;
+	}
+}
+
+.registerPage{
+	.btn{
+		float: right;
+	}
+}
+
+.register-page{
+	display: none;
+	width: 88%;
+	margin: 0 auto;
+	.reg-form{
+		width: $p100;
+		.reg-row{
+			margin-top: .5em;
+			label{
+				color: #616161;
+				font-size: 1.6em;
+				height: 2em;
+				line-height: 2.2em;
+			}
+			.reg-input{
+				font-size: 1.6em;
+				height: 2.4em;
+				line-height: 2.4em;
+				@extend .boxShadow;
+				border-radius: 5px;
+				input{
+					display: block;
+					width: $p100;
+					height: $p100;
+					line-height: $p100;
+					border-radius: 5px;
+					color: $cInput;
+					font-size: 1.2em;
+				}
+			}
+			.reg-input.phone{
+				.area-code{
+					display: inline-block;
+					height: $p100;
+					width: 16%;
+					background: $cG;
+					float: left;
+					color: $colorW;
+					text-align: center;
+					border-radius: 5px 0 0 5px;
+				}
+				input{
+					width: 84%;
+				}
+			}
+		}
+
+		.reg-submit{
+			margin-top: 1em;
+			font-size: 1.6em;
+			height: 3em;
+			line-height: 3em;
+			text-align: center;
+			color: $colorW;
+			background: $cG;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	}
+}
+
+.share-page{
+	$color-s: #e3800c;
+	width: $p100;
+	height: 100%;
+	background: $color-s;
+	font-weight: 400;
+	.banner{
+		img{
+			width: 100%;	
+		}
+	}
+
+	.invite-friends{
+		width: $p100;
+		height: 5em;
+		
+		.invite-btn{
+			width: 80%;
+			max-width: 500px;
+			margin: .5em auto;
+			font-size: 3em;
+			background: #feee39;
+			color: $color-s;
+			border-radius: 5px;
+			text-align: center;
+		}
+		dl.activity-detail{
+			width: $p80;
+			margin: 0 auto;
+			color: $colorW;
+			dt{
+				position: relative;
+				height: 2em;
+				line-height: 2em;
+				text-align: center;
+				.line{
+					position: absolute;
+					top: 50%;
+					margin-top: -1px;
+					height: 2px;
+					width: $p100;
+					background: #d96e00;
+					b{
+						position: absolute;
+						top: 50%;
+						margin-top: -2px;
+						width: 4px;
+						height: 4px;
+						border-radius: 50%;
+						background: #d96e00;
+					}
+					b.circle-left{
+						left: 0;
+					}
+					b.circle-right{
+						right: 0;
+					}
+				}
+				span{
+					position: relative;
+					z-index: 10;
+					overflow: hidden;
+					text-align: center;
+					background: $color-s;
+					display: inline-block;
+					margin: 0 auto;
+					padding: 0 1.4em;
+					font-size: 1.6em;
+				}
+				
+			}
+			dd{
+				font-size: 1.2em;
+				padding: .5em 0;
+				overflow: hidden;
+				b{
+					display: inline-block;
+					border-radius: 50%;
+					background: #fff;
+					font-size: 1em;
+					height: 1.2em;
+					line-height: 1.2em;
+					width: 1.2em;
+					color: $color-s;
+					text-align: center;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+.follow-page{
+	background: #e98712;
+	width: $p100;
+	height: 100%;
+	text-align: center;
+	color: $colorW;
+	position: relative;
+	span{
+		display: block;
+	}
+	.qrcode{
+		width: 45%;
+		margin: $marginCenter;
+		padding-top: 5em;
+		img{
+			width: $p100;
+			max-width: 300px;
+			margin: $marginCenter; 
+		}
+	}
+
+	.qrcode-t{
+		width: $p100;
+		padding-top: .8em;
+		span{
+			font-size: 1.6em;
+			line-height: 1.6em;
+		}
+	}
+
+	.follow-des{
+		background: url(../images/bg_scan_coin.png) no-repeat;
+		height: 40%;
+		width: $p100;
+		background-size: cover;
+		padding-top: 2em 2em 0 2em;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		p{
+			font-size: 1.4em;
+			span{
+				line-height: 2em;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.friend-list{
+	width: $p90;
+
+	.black-text{
+		
+	}
+	.row{
+		font-size: 1.4em;
+		margin-bottom: 0;
+	}
+	.friend-item{
+		width: $p100;
+		display: table;
+		.col{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.s2{
+			width: 20%;
+			img{
+				width: $p100;
+				border-radius: 50%;
+			}
+		}
+		.s10{
+			float: left;
+			width: 26%;
+		}
+	}
+}
+
+.guide-share{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	overflow: hidden;
+	.block{
+		width: 100%;
+		height: 100%;	
+		background: #000;
+		opacity: 0.3;
+	}
+	img{
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 70%;
+	}
+}

@@ -1,0 +1,94 @@
+__dirname = /home/ubuntu/nodejs/weixin
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.listen (/home/ubuntu/nodejs/weixin/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/nodejs/weixin/server.js:4:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+__dirname = /home/ubuntu/nodejs/weixin
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.listen (/home/ubuntu/nodejs/weixin/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/nodejs/weixin/server.js:4:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module '/home/ubuntu/nodejs/weixin/server.j'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:935:3
+__dirname = /home/ubuntu/nodejs/weixin
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.listen (/home/ubuntu/nodejs/weixin/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/nodejs/weixin/server.js:4:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+__dirname = /home/ubuntu/nodejs/weixin
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.listen (/home/ubuntu/nodejs/weixin/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/nodejs/weixin/server.js:4:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+__dirname = /home/ubuntu/nodejs/weixin
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EACCES
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1024:19)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.listen (/home/ubuntu/nodejs/weixin/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/home/ubuntu/nodejs/weixin/server.js:4:8)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+__dirname = /home/ubuntu/nodejs/weixin
+jsx engine server is starting on http://weixin.xender.com:8080, press Ctrl-C to terminate...
+__dirname = /home/ubuntu/nodejs/weixin
+jsx engine server is starting on http://weixin.xender.com:8080, press Ctrl-C to terminate...
